@@ -1,5 +1,5 @@
-1-composer install
-2-config database
-3-php artisan migrate
-4-php artisandb:seed
-5-php artisan passport:install
+1-composer install <br>
+2-config database <br>
+3-php artisan migrate <br>
+4-php artisandb:seed <br>
+5-php artisan passport:install <br>
