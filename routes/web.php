@@ -103,6 +103,8 @@ Route::group( [ 'prefix' => '/admin', 'middleware' => [ 'auth','admin' ] ], func
 } );
 Route::group( [ 'prefix' => '/student', 'middleware' => [ 'auth' ,'student'] ], function () {
     Route::get( '/', 'student\HomeController@index')->name('student.home');
+    Route::post( '/marks', 'admin\DegreesController@marks' )->name( 'student.degrees.marks' );
+
 
 });
 

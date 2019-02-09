@@ -40,7 +40,7 @@
 
             student="{{auth()->user()->student->id}}"
             $.ajax({
-                url: "{{route('degrees.marks')}}",
+                url: "{{route('student.degrees.marks')}}",
                 type: "post",
                 dataType:"json",
                 data: {"_token":"{{csrf_token()}}",id:id,student:student} ,
