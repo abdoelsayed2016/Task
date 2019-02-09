@@ -35,7 +35,7 @@
                     <th>{{$registeration->semester->name}}</th>
                     <th>{{$registeration->student->user->name}}</th>
                     <th>
-                        <a href="{{route('registerations.marks',$registeration->id)}}" class="btn btn-primary">Marks</a>
+                        <a href="{{route('registerations.marks',$registeration->id)}}" class="btn btn-warning">Marks</a>
                         <a href="{{route('registerations.edit',$registeration->id)}}" class="btn btn-success">Edit</a>
                         <a href="{{route('registerations.destroy',$registeration->id)}}" class="btn btn-danger">Delete</a>
 
